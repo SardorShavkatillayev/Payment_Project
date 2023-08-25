@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+   <!-- &lt;!&ndash;service bean &ndash;&gt;
+    <bean class="com.example.payment_project.service.UserService" name="userService">
+        <property name="userRepository" ref="repository"/>
+    </bean>
+    &lt;!&ndash;UserRepository bean&ndash;&gt;
+    <bean class="com.example.payment_project.repository.user.UserRepositoryImpl" name="repository">
+        <property name="connection" ref="dataSource"/>
+    </bean>
+
+
+
+
+<bean class="org.springframework.jdbc.datasource.DriverManagerDataSource" name="dataSource">
+<constructor-arg name="url" value="jdbc:postgresql://localhost:5432/payment"/>
+<constructor-arg name="username" value="postgres"/>
+<constructor-arg name="password" value="sardor2003"/>
+<property name="driverClassName" value="org.postgresql.Driver"/>
+</bean>
+-->
+</beans>
